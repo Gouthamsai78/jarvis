@@ -1,0 +1,44 @@
+# Jarvis AI Assistant Dependencies
+# ================================
+# IMPORTANT: MediaPipe requires Python 3.8-3.12
+# If using Python 3.13+, install mediapipe from source or use Python 3.12
+#
+# Recommended: Use Python 3.11 or 3.12 for best compatibility
+
+# Google AI SDKs
+google-adk>=1.19.0
+google-genai>=0.5.0
+
+# Computer Vision
+opencv-python>=4.8.0
+# NOTE: MediaPipe only works with Python 3.8-3.12
+# For Python 3.13+, comment out this line and hand detection will be disabled
+mediapipe>=0.10.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# System Control
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+
+# Environment
+python-dotenv>=1.0.0
+
+# Voice (Optional - comment out if issues occur)
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+
+# UI (Optional)
+customtkinter>=5.2.0
+
+# LiveKit Voice Agent
+livekit>=1.0.0
+livekit-agents>=0.8.0
+livekit-plugins-google>=0.7.0
+aiohttp>=3.9.0
+aiofiles>=23.0.0
+pyperclip>=1.8.0
+
+# Google TTS
+gtts>=2.5.0
+pygame>=2.5.0

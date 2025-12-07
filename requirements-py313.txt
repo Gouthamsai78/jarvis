@@ -1,0 +1,26 @@
+# Jarvis AI Assistant - Python 3.13 Compatible Requirements
+# =========================================================
+# Use this file if you're on Python 3.13+ where MediaPipe isn't available
+# Hand gesture features will be limited, but AI agent and voice work fully
+
+# Google AI SDKs
+google-adk>=1.19.0
+google-genai>=0.5.0
+
+# Computer Vision (OpenCV only - no hand detection)
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# System Control
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+
+# Environment
+python-dotenv>=1.0.0
+
+# Voice (Optional)
+pyttsx3>=2.90
+
+# UI (Optional)
+customtkinter>=5.2.0
